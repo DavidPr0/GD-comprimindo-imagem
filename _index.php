@@ -34,4 +34,4 @@ imagecopyresampled($imagem_final, $imagem_original, 0, 0, 0, 0, $width, $height,
 // Salva imagem
 imagejpeg($imagem_final,"mini_imagem.jpeg");
 
-echo "Imagem redimencionada com sucesso";
+echo "Imagem redimensionada com sucesso";
